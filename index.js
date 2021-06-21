@@ -73,7 +73,7 @@ client.connect((err) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Express Connect with MongoDB! It's the Learners Heaven server");
+  res.send("Express Connect with MongoDB! It's the Learners Heaven server!");
 });
 
 app.listen(port, () => {
